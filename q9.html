@@ -1,0 +1,29 @@
+<!--Write html code to develop a webpage having two frames that divide the webpage into two equal rows and then divide the row into equal columns fill each frame with a different background color-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Frames</title>
+    <style>
+        body, html { height: 100%; margin: 0; }
+        .container { display: grid; grid-template-rows: 1fr 1fr; height: 100vh; }
+        .frame { display: grid; grid-template-columns: 1fr 1fr; }
+        .frame1 { background: lightblue; }
+        .frame2 { background: lightcoral; }
+        .frame3 { background: lightgreen; }
+        .frame4 { background: lightgoldenrodyellow; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="frame frame1"></div>
+        <div class="frame frame2"></div>
+        <div class="frame frame3"></div>
+        <div class="frame frame4"></div>
+    </div>
+
+</body>
+</html>
