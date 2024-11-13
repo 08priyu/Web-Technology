@@ -1,0 +1,41 @@
+<!--Write a program to create a web page using img tag with all its attributes.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image Example</title>
+    <style>
+        /* Background for the entire page */
+        body {
+            background: url('IMAGE.jpeg') no-repeat center center;
+            background-size: cover;
+        }
+
+        /* Background for individual elements */
+        .box {
+            width: 300px;
+            height: 200px;
+            background: url('images.jpeg') repeat;
+            margin: 20px;
+        }
+
+        .no-repeat {
+            background: url('images.jpeg') no-repeat;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Background Image Example</h1>
+
+    <div class="box">
+        <p>Repeating background</p>
+    </div>
+
+    <div class="box no-repeat">
+        <p>No background repeat</p>
+    </div>
+
+</body>
+</html>
