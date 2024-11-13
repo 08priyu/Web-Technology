@@ -1,0 +1,24 @@
+<!--10	Write a program to create a web page showing the use of inline, internal and External CSS.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Examples</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .internal { color: purple; }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Demonstration</h1>
+    <p>This uses <span class="internal">internal CSS</span>.</p>
+    <p style="color: red;">This demonstrates <strong>inline CSS</strong>.</p>
+
+</body>
+</html>
+
+
+
+
